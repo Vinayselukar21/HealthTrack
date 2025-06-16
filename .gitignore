@@ -1,0 +1,55 @@
+# =========================
+# Global ignores (common)
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.tmp
+
+# Environment files
+.env
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# Frontend (Next.js)
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/coverage/
+frontend/.next-telescope/
+frontend/next.config.mjs.local
+frontend/package-lock.json # optional if you want to ignore lockfiles
+
+# =========================
+# Backend (Python)
+# =========================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.so
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.tox/
+backend/.nox/
+backend/.coverage
+backend/coverage.xml
+backend/htmlcov/
+backend/.hypothesis/
+backend/.pyre/
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/*.egg
+backend/pip-log.txt
+backend/.ipynb_checkpoints/
